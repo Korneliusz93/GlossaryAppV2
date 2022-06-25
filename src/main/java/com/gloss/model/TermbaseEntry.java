@@ -2,7 +2,6 @@ package com.gloss.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.Objects;
 
 import lombok.*;
 @Getter
@@ -37,6 +36,14 @@ public class TermbaseEntry {
     @Column(name = "entry_creation_date")
     private LocalDate entryCreationDate;
 
+    public void setEntryCreationDate(LocalDate entryCreationDate) {
+        this.entryCreationDate = LocalDate.now();
+    }
+
     @Column(name = "entry_update_date")
     private LocalDate entryUpdateDate;
+
+    public void setEntryUpdateDate(LocalDate entryUpdateDate) {
+        this.entryUpdateDate = LocalDate.now();
+    }
 }

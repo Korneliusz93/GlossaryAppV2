@@ -26,6 +26,7 @@
 /Users/kornelrzeczycki/Documents/Java_Podyplomowe/praca dyplomowa/ApplicationV2/src/main/java/com/gloss/repository/UserCrudRepository.java
 /Users/kornelrzeczycki/Documents/Java_Podyplomowe/praca dyplomowa/ApplicationV2/src/main/java/com/gloss/repository/ProjectCrudRepository.java
 /Users/kornelrzeczycki/Documents/Java_Podyplomowe/praca dyplomowa/ApplicationV2/src/main/java/com/gloss/model/LanguageDto.java
+/Users/kornelrzeczycki/Documents/Java_Podyplomowe/praca dyplomowa/ApplicationV2/src/main/java/com/gloss/repository/TermbaseEntryCrudRepository.java
 /Users/kornelrzeczycki/Documents/Java_Podyplomowe/praca dyplomowa/ApplicationV2/src/main/java/com/gloss/model/EmailAddressDto.java
 /Users/kornelrzeczycki/Documents/Java_Podyplomowe/praca dyplomowa/ApplicationV2/src/main/java/com/gloss/service/LanguageService.java
 /Users/kornelrzeczycki/Documents/Java_Podyplomowe/praca dyplomowa/ApplicationV2/src/main/java/com/gloss/service/UserService.java

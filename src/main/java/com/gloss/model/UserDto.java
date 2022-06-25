@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
@@ -26,4 +27,7 @@ public class UserDto {
 
     @NotBlank(message = "Last name must be not blank")
     private String lastName;
+
+    @NotNull
+    private String emailAddress;
 }

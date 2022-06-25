@@ -18,13 +18,13 @@ public class TermbaseEntryDto {
 
     private String termDescription;
 
-    private Language language;
+    private String language;
 
-    private User creator;
+    private User author;
 
-    private User updater;
+    //private User updater;
 
-    private LocalDate entryCreationDate;
+    private LocalDate entryInputDate;
 
-    private LocalDate entryUpdateDate;
+    //private LocalDate entryUpdateDate;
 }

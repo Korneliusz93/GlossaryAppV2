@@ -18,6 +18,13 @@ public class EmailAddressService {
         return emailAddressCrudRepository.findById(id);
     }
 
+    public EmailAddress addEmailAddress(String email){
+        EmailAddress emailAddress = EmailAddress.builder()
+                .emailAddress(email)
+                .build();
+        return emailAddressCrudRepository.save(emailAddress);
+    }
+
     public void deleteEmailAddress(int id){
         emailAddressCrudRepository.deleteById(id);
     }

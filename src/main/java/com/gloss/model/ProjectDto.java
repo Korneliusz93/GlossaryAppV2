@@ -10,6 +10,8 @@ import lombok.*;
 @ToString
 public class ProjectDto {
 
+    private int id;
+
     private String projectName;
 
 }
